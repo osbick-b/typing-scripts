@@ -11,7 +11,7 @@ const app = express();
 app.get("/api")
 
 app.get("/api", (req,res) => {
-    res.json({ message: "Server says hi! :D "});
+    res.json({ message: "Server says hi! :D ", name: "Luce"});
 });
 
 
